@@ -7,7 +7,7 @@ MAINTAINER lemmy04 <Mathias.Homann@openSUSE.org>
 ## install everything needed to run a telegram bot
 RUN zypper ar -e -p 75 -r https://download.opensuse.org/repositories/home:/lemmy04/openSUSE_Leap_15.2/home:lemmy04.repo
 RUN zypper --gpg-auto-import-keys ref
-RUN zypper install -y -l git wget curl python3-telegram-bot frotz
+RUN zypper install -y -l git wget curl python3-telegram-bot frotz redis
 
 ## clean zypper cache for smaller image
 RUN zypper cc --all
