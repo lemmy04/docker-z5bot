@@ -1,4 +1,5 @@
+stories
 *~
-
-z5bot/bot.py z5bot/config.json.example z5bot/dfrotz.py z5bot/LICENSE z5bot/media z5bot/models.py z5bot/parser.py z5bot/__pycache__ z5bot/README.md z5bot/requirements.txt
+*.z5
+config.json
 z5bot
